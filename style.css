@@ -106,7 +106,7 @@ header {
 
 .outer-link {
     padding-top: 80%;
-    color: #fff;
+    color: #fff; 
     opacity: 0;
     font-size: 50px;
     font-weight: 400;
@@ -142,10 +142,9 @@ header {
 .inner-list {
     display: flex;
     flex-direction: column;
-    overflow: hidden;
-    overflow-y: scroll;
-    height: 750px;
     width: 100%;
+    overflow: auto;
+    transform: translateY(50%);
     transition: 0.5s ease;
 }
 
